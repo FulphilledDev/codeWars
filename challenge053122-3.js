@@ -1,4 +1,4 @@
-// Multiples of 3 or 5
+// Multiples of 3 or 5 - 6kyu
 
 // P - Integer
 // R - Sum of Multiples of 3 or 5 LESS THAN integer
