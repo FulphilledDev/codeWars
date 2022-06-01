@@ -1,4 +1,4 @@
-// Remove String Spaces
+// Remove String Spaces - 8kyu
 
 // P - String
 // R - String without spaces
