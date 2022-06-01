@@ -4,12 +4,17 @@
 // R - String without spaces
 // E - 'My name is Philip' => 'MynameisPhilip'
 
-const noSpace = str => {
+function noSpace(str) {
     // Split string into array of elements
-    let newArr = str.split('');
+    str = str.split('');
     // Filter and trim newArr
-    newArr = newArr.filter(e => e.trim().length)
+    str = str.filter(e => e.trim().length);
     // Join array together
-    newArr = newArr.join('');
-    return newArr
+    str = str.join('');
+    return str
 }
+
+// Also written as:
+// function noSpace (x) {
+//    return x.split(' ').join('');
+//}
