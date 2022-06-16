@@ -6,6 +6,6 @@
 
 //Create function litres that takes in the parameter of hours
 function litres(hours) {
-    //Equation to solve for litres that rounds
+    //Equation to solve for litres that rounds down
     return Math.floor(hours / 2);
 }
