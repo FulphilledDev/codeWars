@@ -6,5 +6,5 @@
 
 const stringToNumber = function (str) {
     // Evaluate value within string
-    return eval(str)
+    return eval(str);
 }
