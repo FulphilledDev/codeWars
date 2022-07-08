@@ -12,5 +12,5 @@ const summation = num => {
         // Summation formula
         sum += i;
     }
-    return sum
+    return sum;
 }

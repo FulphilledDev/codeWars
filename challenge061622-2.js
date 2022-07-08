@@ -7,6 +7,6 @@
 
 function friend(friends) {
     // Filter friends that are equal to 4 letters
-    return friends.filter(word => word.length === 4);
+    return friends.filter(word => word.length === 4)
 
 }
