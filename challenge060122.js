@@ -12,7 +12,7 @@ function noSpace(str) {
     // Join array together
 
     str = str.join('');
-    return str
+    return str;
 }
 
 // Also written as:
