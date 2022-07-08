@@ -10,7 +10,6 @@ function noSpace(str) {
     // Filter and trim newArr
     str = str.filter(e => e.trim().length);
     // Join array together
-<<<<<<< HEAD
     str = str.join('');
     return str
 }
@@ -19,8 +18,8 @@ function noSpace(str) {
 // function noSpace (x) {
 //    return x.split(' ').join('');
 //}
-=======
-    newArr = newArr.join('');
-    return newArr
-}
->>>>>>> ae14e69943fecffd49ccb41ae7ea80b9cb1cb6ec
+
+//    newArr = newArr.join('');
+//    return newArr
+//}
+
