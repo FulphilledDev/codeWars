@@ -5,5 +5,6 @@
 // E - "hello" ==> "HELLO"
 
 function makeUpperCase(str) {
-    str.toUpperCase();
+    // toUpperCase method
+    return str.toUpperCase();
 }
