@@ -12,3 +12,9 @@ function listToArray(list) {
         arr.push(item.value);
     return arr;
 }
+
+// Alternative solution...
+
+// function listToArray(list) {
+//      return !list ? [] : [list.value].concat(listToArray(list.next));
+// }
