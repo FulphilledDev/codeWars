@@ -1,7 +1,7 @@
-// 8kyu - Third Angle of a Triangle
+// 8kyu - Grasshopper - Messi Goals
 
-// P - 2 angles of a triangle
-// R - 3rd angle measurement
-// E - (30, 60) --> 90
+// P - goals from 3 leagues
+// R - total goals 
+// E - (5, 10, 2) => 17
 
-const otherAngle = (a,b) => 180 - a - b
+const goals = (...arr) => arr.reduce((a, b) => a + b, 0)
